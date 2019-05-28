@@ -1277,7 +1277,7 @@ class TuningJob(Logger):
 
       # Finished all configurations we had to do
 
-      self._info('Finished tuning job! minha versao')
+      self._info('Finished tuning job! minha versao2')
 
   # end of __call__ member fcn
 
