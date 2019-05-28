@@ -1276,7 +1276,8 @@ class TuningJob(Logger):
         self._info('File "%s" saved!', savedFile)
 
       # Finished all configurations we had to do
-      self._info('Finished tuning job!')
+
+      self._info('Finished tuning job! minha versao')
 
   # end of __call__ member fcn
 
@@ -1328,4 +1329,3 @@ class TunedDiscrArchieveCol( Logger ):
     # TODO Work with the numpy file
     #return cls.fromRawObj( rawObj )
     return rawObj
-
